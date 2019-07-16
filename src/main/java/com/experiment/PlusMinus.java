@@ -7,7 +7,6 @@ import java.util.List;
 public class PlusMinus {
     public List<String> execute(List<Integer> integers) {
         double size = integers.size();
-        format(size);
         int positive = 0;
         int negative = 0;
         int zeros = 0;
